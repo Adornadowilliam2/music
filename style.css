@@ -120,3 +120,15 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+ @media screen and (max-width: 768px) {
+       body{
+          text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      body{
+          text-align: center;
+      }
+    }
