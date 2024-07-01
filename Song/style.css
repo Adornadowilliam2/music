@@ -30,8 +30,9 @@ a{
 }
 
 p{
-    margin-left: 440px;
-    margin-right: 440px;
+    width: 100px;
+    display: block;
+    margin: auto;
     background-color: rgba(240, 248, 255, 0.603);
 }
 
