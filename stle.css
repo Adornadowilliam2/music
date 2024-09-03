@@ -1,0 +1,131 @@
+.hover-box {
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: #e0c07b;
+  overflow: hidden;
+}
+
+*::before,
+*::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hover-box:hover > .hover-content {
+  transform: translateY(0);
+}
+
+.hover-image {
+  width: 100%;
+  height: auto;
+}
+
+.hover-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(194, 16, 16, 0.5);
+  color: #fff;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-text {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.song {
+  background-color: rgb(231, 157, 114);
+  color: rgb(61, 59, 60);
+  padding: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+/*HappyList.html or All Happy file */
+.mood {
+  background-color: rgb(54, 48, 98);
+  color: rgb(192, 93, 134);
+  padding: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+#background {
+  background-image: url("Image/Bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#back {
+  background-image: url("Image/party.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#anthem {
+  background-image: url("Image/nice.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home {
+  padding: 20px;
+  color: pink;
+  overflow: hidden;
+}
+
+#sugar {
+  background-image: url("Image/sug.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#boon {
+  background-image: url("Image/kanaboon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#care {
+  background-image: url("Image/ido.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Sad song playlist*/
+#null {
+  background-image: url("Image/Alpha.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=stle.css.map */
