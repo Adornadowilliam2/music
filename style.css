@@ -1,3 +1,20 @@
+*::before,
+*::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("media/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .hover-box {
   display: inline-block;
   position: relative;
@@ -6,14 +23,6 @@
   height: 200px;
   background-color: #e0c07b;
   overflow: hidden;
-}
-
-*::before,
-*::after,
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .hover-box:hover > .hover-content {
@@ -42,10 +51,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  text-align: center;
-}
-
 .song {
   background-color: rgb(231, 157, 114);
   color: rgb(61, 59, 60);
@@ -55,8 +60,69 @@ body {
   border-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
+.home {
+  color: pink;
+  text-decoration: underline;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
+}
+
+.lyrics p {
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: rgba(240, 248, 255, 0.603);
+  padding: 0 5px 0 5px;
+}
+
+header img {
+  margin: 10px 0 10px 0;
+}
+
+mark {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sad1 h1,
+.happy1 h1 {
+  background-color: rgb(223, 221, 220);
+  color: rgb(12, 12, 12);
+}
+
+.sad4 h1,
+.happy4 h1 {
+  background-color: rgb(238, 30, 64);
+  color: rgb(228, 214, 17);
+}
+
+.sad3 h1,
+.happy3 h1 {
+  background-color: rgb(187, 53, 187);
+  color: rgb(182, 194, 231);
+}
+
+.sad2 h1,
+.happy2 h1 {
+  background-color: rgb(187, 151, 53);
+  color: rgb(0, 0, 0);
+}
+
+.sad,
+.happy {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
+
 /*HappyList.html or All Happy file */
-.mood {
+.happylist h1,
+.sadlist h1 {
   background-color: rgb(54, 48, 98);
   color: rgb(192, 93, 134);
   padding: 20px;
@@ -65,67 +131,45 @@ body {
   border-color: black;
 }
 
-#background {
-  background-image: url("Image/Bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.happylist {
+  background-image: url("media/happybg.jpg");
 }
 
-#back {
-  background-image: url("Image/party.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.happy4 {
+  background-image: url("media/happy4.jpg");
 }
 
-#anthem {
-  background-image: url("Image/nice.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.happy1 {
+  background-image: url("media/happy1.jpg");
 }
 
-.home {
-  padding: 20px;
-  color: pink;
-  overflow: hidden;
+.happy2 {
+  background-image: url("media/happy2.jpg");
 }
 
-#sugar {
-  background-image: url("Image/sug.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#boon {
-  background-image: url("Image/kanaboon.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#care {
-  background-image: url("Image/ido.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.happy3 {
+  background-image: url("media/happy3.jpg");
 }
 
 /*Sad song playlist*/
-#null {
-  background-image: url("Image/Alpha.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.sadlist {
+  background-image: url("media/sadbg.jpg");
+}
+
+.sad4 {
+  background-image: url("media/sad4.jpg");
+}
+
+.sad3 {
+  background-image: url("media/sad3.jpg");
+}
+
+.sad2 {
+  background-image: url("media/sad2.jpg");
+}
+
+.sad1 {
+  background-image: url("media/sad1.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
